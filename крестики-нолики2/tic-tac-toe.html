@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Крестики-нолики</title>
+</head>
+<body>
+    <h1 id="header" style="text-align: center">Крестики-нолики</h1>
+    <p>Правила игры: Два игрока по очереди ставят на свободные клетки поля 3×3 свои знаки (крестики и нолики), и тот, кто первым выстроит три своих знака в ряд по горизонтали, вертикали или диагонали, побеждает, а если все клетки заполнены, но ряда нет, объявляется ничья.</p>
+    <table id="field" style="text-align: center">
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <br>
+    <div style="text-align: center">
+        <button id="start-button" onclick="startGame()">Start game</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
